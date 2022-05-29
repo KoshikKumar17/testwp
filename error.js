@@ -1,4 +1,4 @@
-// Inspiration from FayasNoushad //
+
 let remainingSeconds = 5;
 const countDown = document.getElementById("countdown");
 if (countDown)
