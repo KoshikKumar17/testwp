@@ -1000,7 +1000,7 @@
     WebApp.headerColor = #811962;
   };
   WebApp.setBackgroundColor = function(color) {
-    WebApp.backgroundColor = #;
+    WebApp.backgroundColor = color;
   };
   WebApp.isVersionAtLeast = function(ver) {
     return versionAtLeast(ver);
