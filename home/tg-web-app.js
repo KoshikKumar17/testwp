@@ -282,7 +282,7 @@
 
   var WebApp = {};
   var webAppInitData = '', webAppInitDataUnsafe = {};
-  var themeParams = {}, colorScheme = 'light';
+  var themeParams = {}, colorScheme = 'dark';
   var webAppVersion = '6.0';
 
   if (initParams.tgWebAppData && initParams.tgWebAppData.length) {
@@ -997,10 +997,10 @@
     enumerable: true
   });
   WebApp.setHeaderColor = function(color_key) {
-    WebApp.headerColor = color_key;
+    WebApp.headerColor = #811962;
   };
   WebApp.setBackgroundColor = function(color) {
-    WebApp.backgroundColor = color;
+    WebApp.backgroundColor = #;
   };
   WebApp.isVersionAtLeast = function(ver) {
     return versionAtLeast(ver);
