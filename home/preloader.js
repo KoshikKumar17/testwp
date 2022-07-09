@@ -9,5 +9,6 @@ $(document).ready(function() {
     setTimeout(function() {
         $('.preloader').remove();
     }, 2800);
+});
 //-->
 ////////////------[ ✨ ❤️ 🇮🇳 Koshik 🇮🇳 ❤️ ✨ ]-------////////
