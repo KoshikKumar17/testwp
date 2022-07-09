@@ -2,13 +2,8 @@
 //-->
 //---> Fade out
 //
-$(document).ready(function() {
-    $('.preloader').animate({
-        'opacity': '0',
-    }, 4600);
-    setTimeout(function() {
-        $('.preloader').remove();
-    }, 2800);
+$(window).bind("load", function () {
+    jQuery(".preloader").delay(0).fadeOut();
 });
 //-->
 ////////////------[ ✨ ❤️ 🇮🇳 Koshik 🇮🇳 ❤️ ✨ ]-------////////
