@@ -101,7 +101,7 @@
 
 @keyframes bounce {
     50% {
-        transform: translateY(999999999999px);
+        transform: translateY(40px);
     }
 
     100% {
@@ -116,7 +116,7 @@
 
 </head>
 
-<body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover" style="background-image:url('https://telegra.ph/file/8d55b89c2ef7dc9fd15a9.jpg');">
+<body style="background-image:url('https://telegra.ph/file/8d55b89c2ef7dc9fd15a9.jpg');">
 
 <div class="preloader">
 
@@ -134,7 +134,7 @@
             <span class="loading"></span>
         </div>
 </div>
-
+<div class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover">
   <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
     
  <div id="profile" class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
@@ -190,6 +190,7 @@ $(window).bind("load", function () {
     jQuery(".preloader").delay(4000).fadeOut();
 });
 </script>
+</div>
 </body>
 
 </html>
