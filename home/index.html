@@ -109,14 +109,6 @@
 }
 </style>
 </head>
-<script>
-var typed = new Typed(".loading", {
-    strings: ["Please Wait...."],
-    typeSpeed: 90,
-    backSpeed: 0,
-    loop: true
-});
-</script>
 <div class="preloader">
     <div class="dots-container">
       <div class="dot red"></div>
@@ -174,7 +166,14 @@ var typed = new Typed(".loading", {
 var text = document.lastModified;
 document.getElementById("lastModified").innerHTML = text;
 </script>
-
+<script>
+var typed = new Typed(".loading", {
+    strings: ["Please Wait...."],
+    typeSpeed: 90,
+    backSpeed: 0,
+    loop: true
+});
+</script>
  <script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
  <script src="https://unpkg.com/tippy.js@4"></script>
  <script src="javascript.js"></script>
